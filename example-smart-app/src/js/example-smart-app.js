@@ -54,6 +54,7 @@
           p.gender = gender;
           p.fname = fname;
           p.lname = lname;
+          p.mrn = mrn;
           p.age = parseInt(calculateAge(dob));
           p.height = getQuantityValueAndUnit(height[0]);
 
