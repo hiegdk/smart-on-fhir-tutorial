@@ -84,6 +84,7 @@
     return {
       fname: {value: ''},
       lname: {value: ''},
+      mrn: {value: ''},
       gender: {value: ''},
       birthdate: {value: ''},
       age: {value: ''},
@@ -149,6 +150,7 @@
     $('#loading').hide();
     $('#fname').html(p.fname);
     $('#lname').html(p.lname);
+    $('#mrn').html(p.mrn);
     $('#gender').html(p.gender);
     $('#birthdate').html(p.birthdate);
     $('#age').html(p.age);
